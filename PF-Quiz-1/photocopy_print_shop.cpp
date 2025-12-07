@@ -1,3 +1,10 @@
+/*
+Write a program for a photocopy and print shop. Read N print jobs and number of pages per job.
+Charge 5 per page. If pages > 80 for a job, apply 10% discount to that job’s total.
+Print the final amount for each job and the total sum. Use variables, loops, IO and if/else.
+Push your code to GitHub and paste the repository URL as answer.  
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -23,7 +30,7 @@ int main(){
         }
 
         cout << "Amount for job " << i << " is: " << jobCost << endl;
-        
+
         totalAmount = totalAmount + jobCost;
     }
 
